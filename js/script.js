@@ -372,7 +372,7 @@ window.addEventListener('scroll', () => {
     if (window.scrollY > 60) navEl.classList.add('scrolled');
     else navEl.classList.remove('scrolled');
 
-    const skillSection = document.getElementById('skills');
+    const skillSection = document.getElementById('tech');
     const progressBars = document.querySelectorAll('.progress-line span');
     if (skillSection) {
         const sectionPos = skillSection.getBoundingClientRect().top;
